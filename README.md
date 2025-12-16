@@ -3,7 +3,6 @@ In this project we are solving 35 Java Script Provlame.That is a newlly uploaded
 
 
 **Problame No-01: Write a function createHelloWorld. It should return a new function that always returns "Hello World"**
-document.addEventListener("DOMContentLoaded",()=>{
 
 Solution:              
 _var createHelloWorld = function() {
@@ -20,5 +19,4 @@ __const createHelloWorld=()=>()=>"Hello World";
 const e=createHelloWorld();
 console.log(e());_
 
-_
-});
+
