@@ -6,15 +6,11 @@ document.addEventListener("DOMContentLoaded",()=>{
 
 Solution:              
 var createHelloWorld = function() {
-    
     return function(...args) {
         return "Hello World";
     };
-  
- 
 };
- 
-  const f=createHelloWorld();
+const f=createHelloWorld();
 console.log(f());
 
 Alternative:
@@ -22,6 +18,6 @@ Alternative:
 const createHelloWorld=()=>()=>"Hello World";
 const e=createHelloWorld();
 console.log(e());
-console.log(e());  
+
 
 });
