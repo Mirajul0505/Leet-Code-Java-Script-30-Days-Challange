@@ -240,8 +240,9 @@ In this project we are solving 1000 Java Script Provlame.
 
 **Problem-13: Write a JavaScript function to calculate the square of a number**
 **solution:**
+                    
                     function squareNumber(n){
-                        return n*n;
+                        return (n*n);
                     }
                     console.log(squareNumber(10000000000));
 
