@@ -126,24 +126,30 @@ In this project we are solving 1000 Java Script Provlame.
                     
 **problem 07: write a js function to find the product of two number**
 **solution:**
-                     function product(x,y){
-                        return (x*y);
-                     }
-                     console.log(product(20,9));
-                     
+
+                       function product(x,y){
+                          return (x*y);
+                       }
+                       console.log(product(20,9
+                       
+                       
 **problem 08: write a js function to find the modulas of two number**
 **solution:**
+
                      function reminder(a,b){
                         return (a%b);
                      }
                      console.log(product(20,9));
+                     
 
 **problem 09: write a js function to find the deferance of two number**
 **solution:**
+                  
                     function defferance(x,y){
-                        return x-y;
+                        return (x-y);
                     }
                     console.log(defferance(20,19));
+
 
 **Provlam-10: Write a JavaScript function to check if a number is positive, negative or zero**
 **solution:**
