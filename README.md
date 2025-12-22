@@ -120,19 +120,21 @@ In this project we are solving 1000 Java Script Provlame.
 **solution:**
                     
                     function sum(x,y){
-                        return x+y;
+                        return (x+y);
                     }
                     console.log(sum(19,11));
+                    
 **problem 07: write a js function to find the product of two number**
 **solution:**
                      function product(x,y){
                         return (x*y);
                      }
                      console.log(product(20,9));
+                     
 **problem 08: write a js function to find the modulas of two number**
 **solution:**
                      function reminder(a,b){
-                        return a%b;
+                        return (a%b);
                      }
                      console.log(product(20,9));
 
