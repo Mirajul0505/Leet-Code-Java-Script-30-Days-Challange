@@ -269,10 +269,85 @@ In this project we are solving 1000 Java Script Provlame.
                             return a;
                         }else if (c>a){
                             return c;
+
                         }else{
                             return b;
                         }
                      }
                      console.log(check(113,32,9));
+
+
+**String To Array Convartion Using Defferent Methode:**
+
+**Common Code:** 
+                    
+                    let str="Hellow Worldddgg!";
+                    let arr=str.split("");
+                    
+**Using for loop:** 
+    
+               
+                   let b=[];
+                   for(let i=0; i<arr.length; i++){
+                           b.push(arr[i].toUpperCase());
+                   };
+            
+                   console.log(b);
+                   
+        
+**Using Map() Methode:**
+
+
+                   let newArray=arr.map(function (value){
+                          return value.toUpperCase();
+                   });
+                   console.log(newArray);
+                   
+        
+**Using ES6 Methode:**
+
+        
+                   let newArrES6 =arr.map((value)=>value.toUpperCase());
+                   console.log(newArrES6);
+               
+        
+**Using forEah loop:**
+
+
+                   let c=[];
+                   arr.forEach(function (e){
+                          c.push(e.toUpperCase());
+                    })
+                    console.log(c);
+                  
+            
+**ES6 Methode:**
+
+
+                     let d=[];
+                     arr.forEach((x)=>d.push(x.toLowerCase()));
+                     console.log(d);
+              
+              
+                     // Using for...fo loop
+                     let f=[];
+                     for(value of arr){
+                            f.push(value.toLowerCase());
+                     }
+                     console.log(f);
+
+                     
+              
+**Using While loop:**
+
+
+      
+                     let h=[];
+                     let i=0;
+                     while(i<arr.length){
+                            h.push(arr[i].toUpperCase());
+                            i++;
+                     } 
+                     console.log(h);
 
 
