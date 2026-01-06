@@ -229,6 +229,7 @@ In this project we are solving 1000 Java Script Provlame.
                        console.log(result);
                     };
 
+
                     let digit={ key:[] };
                     for(let x of array){
                         digit.key.push(number(x));
@@ -349,6 +350,54 @@ In this project we are solving 1000 Java Script Provlame.
                             i++;
                      } 
                      console.log(h);
+
+
+/*  problame 05:Given an integer array arr and a mapping function fn, return a new array with a transformation applied to each element.
+    The returned array should be created such that returnedArray[i] = fn(arr[i], i).
+    Please solve it without the built-in Array.map method. */
+
+  
+        //Using forEach loop
+
+
+        
+                    let arr=[1,2,3,4];
+                    let returnedArray=[];
+                    function fn(){
+                        let increment=parseInt(arr);
+                        arr.forEach(function(arr,i){
+                           increment +=1;
+                           returnedArray.push(increment);
+                          
+                        }); 
+                       
+                    }
+                    fn();
+                    console.log(returnedArray);
+
+
+                    
+
+//Using For Loop 
+
+
+     
+                        let array=[4,5,6,7];
+                        let newArray=[];
+                        
+                        function c(i){
+                          
+                            for(let i=0; i<array.length;i++){
+                                let count = array[i];
+                                count=count+1;
+                                 newArray.push(count);
+                            }
+                        }
+                        c();
+                        console.log(newArray);
+
+
+
 
 ***Note:***
 
