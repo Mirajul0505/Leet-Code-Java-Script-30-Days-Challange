@@ -453,6 +453,30 @@ In this project we are solving 1000 Java Script Provlame.
                       };
                       customFunction(val);
                       console.log(newVal);
+
+
+
+3
+
+
+                      
+                       let array=[1,2,3,4];
+                      var map = function(arr,fn) {
+                          let returnedArray=[];
+                          
+                          for(let i=0; i<arr.length; i++){
+                              let callback=fn(arr[i],i)
+                              returnedArray.push(callback);
+                          }
+                         
+                          return returnedArray;
+                      };
+                      
+                       let result =map(array, (n)=>n+1);
+                       console.log(result);
+
+                      
+
                                           
 
 
