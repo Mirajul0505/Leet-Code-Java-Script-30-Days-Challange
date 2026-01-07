@@ -360,6 +360,7 @@ In this project we are solving 1000 Java Script Provlame.
         //Using forEach loop
 
 
+1.
         
                     let arr=[1,2,3,4];
                     let returnedArray=[];
@@ -376,12 +377,51 @@ In this project we are solving 1000 Java Script Provlame.
                     console.log(returnedArray);
 
 
-                    
+
+
+
+2 
+
+
+
+                    let arra=[1,2,3,4];
+                      let newArra=[];
+                      let map=function (arr){
+                              arr.forEach(function(element,i){
+                               element=element+1;
+                              // element=element+1;
+                             newArra.push(element);
+                      
+                          }); 
+                          
+                      };
+                      
+                      map(arra);
+                      console.log(newArra);
+
+
+
+3
+
+                      
+                      let oldArray=[5,6,7,8,9,10];
+                      let returnNewArray=[];
+                      let customMap=function(ara,index){
+                          ara.forEach(function(element,index){
+                              let value = element+1;
+                              returnNewArray.push(value);
+                          })
+                      }
+                      customMap(oldArray);
+                      console.log(returnNewArray);
+
+
 
 //Using For Loop 
 
 
-     
+1
+
                         let array=[4,5,6,7];
                         let newArray=[];
                         
@@ -398,22 +438,24 @@ In this project we are solving 1000 Java Script Provlame.
 
 
 
+2   
 
-***Note:***
 
-      👉 দুটো result বাইরে দরকার হলে object return করো আর sequence দরকার হলে array return            করো শুধু debug করতে চাইলে console.log করো
-      👉 ফাংশনের আউটপুট forEach-এ ব্যবহার করতে হলে, callback-এর ভিতরে ফাংশন কল করে তার             return ভ্যালু দিয়ে কাজ করতে হবে
-      👉 return করে সরাসরি পাওয়া যাবে না।
-      👉 শুধু লুপ চালানোর জন্য forEachব্যাবহার করো। forEach কোনো কিছু return নেয় না বা দেয় না ।             কিন্তু তুমি ফাংশনের আউটপুট নিয়ে forEach–এর ভেতরে কাজ করতে পারো
-      👉 ফাংশনের আউটপুট নিয়ে নতুন array তৈরি করতে map ব্যাবহার করো। 
-          map নিজেই ফাংশনের return ভ্যালু নিয়ে array বানায়। element সবসময় array-এর আসল                 মানটাই হবে। return করা ভ্যালু দিয়ে element পরিবর্তন হয় না।
-      👉 শর্ত অনুযায়ী বাছাই করতে filter ব্যাবহার করো।
-      👉
-      👉
-      👉
-      👉
-      👉
-      👉
-      👉
-      👉
-      👉
+
+                      let val=[1,3,5,7,14];
+                      let newVal=[];
+                      let customFunction=function(parameter){
+                      for(let i=0;i<parameter.length;i++){
+                          let value=parameter[i];
+                          value =value+1;
+                          newVal.push(value);
+                      }
+                      };
+                      customFunction(val);
+                      console.log(newVal);
+                                          
+
+
+
+
+
