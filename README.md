@@ -357,8 +357,7 @@ In this project we are solving 1000 Java Script Provlame.
     Please solve it without the built-in Array.map method. */
 
   
-        //Using forEach loop
-
+       ** Using forEach loop**
 
 1.
         
@@ -417,10 +416,11 @@ In this project we are solving 1000 Java Script Provlame.
 
 
 
-//Using For Loop 
+                **Using For Loop **
 
 
 1
+
 
                         let array=[4,5,6,7];
                         let newArray=[];
